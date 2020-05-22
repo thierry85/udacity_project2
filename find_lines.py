@@ -462,8 +462,8 @@ mylines=Line()
 if (run):
   mylines.test_images()
   mylines.video_pipeline("project_video.mp4")
-  mylines.video_pipeline("challenge_video.mp4")
-  mylines.video_pipeline("harder_challenge_video.mp4")
+#  mylines.video_pipeline("challenge_video.mp4")
+#  mylines.video_pipeline("harder_challenge_video.mp4")
 
 # debug
 if (debug_distorsion):
