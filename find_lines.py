@@ -260,7 +260,7 @@ class Line():
     curve=(left_curverad+right_curverad)/2
     strcurve='%.1f' % (curve)
     textcur="Radius of curvature left: "+strcurve+" m"
-    realcenter=(left_fitx[0]+right_fitx[0])/2
+    realcenter=(left_fitx[len(ploty)-1]+right_fitx[len(ploty)-1])/2
     deltacenter=(img.shape[1]/2-realcenter)*xm_per_pix
     if (deltacenter>0 ):
       strpos='%.2f' % (deltacenter)
